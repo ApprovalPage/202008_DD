@@ -854,10 +854,11 @@ if (reversed == null) { reversed = false; }
 
 	// HEAD0
 	this.instance_11 = new lib.HEAD0();
-	this.instance_11.setTransform(102.95,185,1,1,0,0,0,83,25);
+	this.instance_11.setTransform(232.85,185,1,1,0,0,0,83,25);
 	this.instance_11.alpha = 0;
+	this.instance_11._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_11).to({x:232.85,alpha:1},9).wait(65).to({alpha:0},5).to({_off:true},1).wait(270));
+	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(11).to({_off:false},0).to({alpha:1},9).wait(54).to({alpha:0},5).to({_off:true},1).wait(270));
 
 	// border
 	this.shape = new cjs.Shape();
@@ -884,8 +885,8 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/DD_Intro_300x600_atlas_P_1.png?1597445535314", id:"DD_Intro_300x600_atlas_P_1"},
-		{src:"images/DD_Intro_300x600_atlas_NP_1.jpg?1597445535314", id:"DD_Intro_300x600_atlas_NP_1"}
+		{src:"images/DD_Intro_300x600_atlas_P_1.png?1597513681286", id:"DD_Intro_300x600_atlas_P_1"},
+		{src:"images/DD_Intro_300x600_atlas_NP_1.jpg?1597513681286", id:"DD_Intro_300x600_atlas_NP_1"}
 	],
 	preloads: []
 };
