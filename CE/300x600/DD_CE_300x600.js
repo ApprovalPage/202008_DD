@@ -772,23 +772,31 @@ if (reversed == null) { reversed = false; }
 
 	// timeline functions:
 	this.frame_29 = function() {
-		//this.stop();
+		if(!this.alreadyExecuted){
+		this.alreadyExecuted=true;
+		this.loopNum=1;
+		} else {
+		this.loopNum++;
+		if(this.loopNum==5){
+		this.stop();
+		}
+		}
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).wait(29).call(this.frame_29).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).wait(29).call(this.frame_29).wait(2));
 
 	// pinwheel
 	this.instance = new lib.pinwheel();
 	this.instance.setTransform(-22,0);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).to({rotation:-179.0006,x:43.95,y:-0.05},15).to({rotation:-350.001,x:-22,y:0},14).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({rotation:-179.0006,x:43.95,y:-0.05},15).to({rotation:-350.001,x:-22,y:0},14).wait(2));
 
 	// stick
 	this.instance_1 = new lib.pinwheel_stick();
 	this.instance_1.setTransform(-1,204.5,1,1,-3.9662,0,0,-0.1,-204.3);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).to({rotation:5.202,x:23.2,y:204.45},15).to({rotation:-3.9662,x:-1,y:204.5},14).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).to({rotation:5.202,x:23.2,y:204.45},15).to({rotation:-3.9662,x:-1,y:204.5},14).wait(2));
 
 	this._renderFirstFrame();
 
@@ -1013,8 +1021,8 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/DD_CE_300x600_atlas_P_1.png?1597424162846", id:"DD_CE_300x600_atlas_P_1"},
-		{src:"images/DD_CE_300x600_atlas_NP_1.jpg?1597424162846", id:"DD_CE_300x600_atlas_NP_1"}
+		{src:"images/DD_CE_300x600_atlas_P_1.png?1597513572730", id:"DD_CE_300x600_atlas_P_1"},
+		{src:"images/DD_CE_300x600_atlas_NP_1.jpg?1597513572730", id:"DD_CE_300x600_atlas_NP_1"}
 	],
 	preloads: []
 };
