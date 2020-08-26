@@ -663,17 +663,17 @@ if (reversed == null) { reversed = false; }
 
 	// bkgd
 	this.instance_6 = new lib.CE300x600bkgd15();
-	this.instance_6.setTransform(600,300,1,1,-90);
+	this.instance_6.setTransform(592,300,1,1,-90);
 
 	this.instance_7 = new lib.CE300x600bkgd15();
-	this.instance_7.setTransform(0,300,1,1,-90);
+	this.instance_7.setTransform(-1,300,1,1,-90);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_7},{t:this.instance_6}]}).wait(158));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(364,45,836,475.29999999999995);
+p.nominalBounds = new cjs.Rectangle(363,45,829,475.29999999999995);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
@@ -683,8 +683,8 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/DD_CE_728x90_atlas_P_1.png?1598133164239", id:"DD_CE_728x90_atlas_P_1"},
-		{src:"images/DD_CE_728x90_atlas_NP_1.jpg?1598133164239", id:"DD_CE_728x90_atlas_NP_1"}
+		{src:"images/DD_CE_728x90_atlas_P_1.png?1598465381276", id:"DD_CE_728x90_atlas_P_1"},
+		{src:"images/DD_CE_728x90_atlas_NP_1.jpg?1598465381276", id:"DD_CE_728x90_atlas_NP_1"}
 	],
 	preloads: []
 };
