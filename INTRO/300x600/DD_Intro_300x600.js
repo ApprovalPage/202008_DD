@@ -704,7 +704,7 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	this.actionFrames = [0,249];
+	this.actionFrames = [0,282];
 	// timeline functions:
 	this.frame_0 = function() {
 		//if(!this.alreadyyExecuted){
@@ -716,7 +716,7 @@ if (reversed == null) { reversed = false; }
 		//gotoAndPlay(2);
 		//}
 	}
-	this.frame_249 = function() {
+	this.frame_282 = function() {
 		//if(!this.alreadyExecuted){
 		//this.alreadyExecuted=true;
 		//this.loopNum=1;
@@ -729,7 +729,7 @@ if (reversed == null) { reversed = false; }
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(249).call(this.frame_249).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(282).call(this.frame_282).wait(1));
 
 	// CTA
 	this.instance = new lib.CTA();
@@ -737,60 +737,60 @@ if (reversed == null) { reversed = false; }
 	this.instance.alpha = 0;
 	this.instance._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(206).to({_off:false},0).to({alpha:1},7).wait(37));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(239).to({_off:false},0).to({alpha:1},7).wait(37));
 
 	// HEAD-MySmile
 	this.instance_1 = new lib.HEAD_MySmile();
 	this.instance_1.setTransform(588.75,711.05,0.95,0.95,0,0,0,300.8,181.7);
 	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(198).to({_off:false},0).to({x:308.75,y:431.05},8,cjs.Ease.quadOut).wait(44));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(231).to({_off:false},0).to({x:308.75,y:431.05},8,cjs.Ease.quadOut).wait(44));
 
 	// logo
 	this.instance_2 = new lib.DD_logo();
 	this.instance_2.setTransform(150,159.35,1,1,0,0,0,129.5,15.3);
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(198).to({_off:false},0).wait(52));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(231).to({_off:false},0).wait(52));
 
 	// HEAD2bDent
 	this.instance_3 = new lib.HEAD2b_EstCosts();
-	this.instance_3.setTransform(-150.35,454.1,0.9841,0.9841,0,0,0,88.3,25.1);
+	this.instance_3.setTransform(-150.35,325.8,0.9841,0.9841,0,0,0,88.3,25.1);
 	this.instance_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(141).to({_off:false},0).to({regX:88.5,x:136},9,cjs.Ease.quadOut).wait(36).to({x:-143.3},11,cjs.Ease.quintIn).to({_off:true},1).wait(52));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(176).to({_off:false},0).to({regX:88.5,x:136},9,cjs.Ease.quadOut).wait(34).to({x:-143.3},11,cjs.Ease.quintIn).to({_off:true},1).wait(52));
 
 	// HEAD2bHist
 	this.instance_4 = new lib.HEAD2b_ID();
-	this.instance_4.setTransform(-150.35,324.35,0.9841,0.9841,0,0,0,88.3,25.1);
+	this.instance_4.setTransform(-150.35,325.8,0.9841,0.9841,0,0,0,88.3,25.1);
 	this.instance_4._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(99).to({_off:false},0).to({regX:88.5,x:136},9,cjs.Ease.quadOut).wait(78).to({regX:88.4,x:-149.3},11,cjs.Ease.quintIn).to({_off:true},1).wait(52));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(120).to({_off:false},0).to({regX:88.5,x:136},9,cjs.Ease.quadOut).wait(35).to({regX:88.4,x:-149.3},11,cjs.Ease.quintIn).to({_off:true},1).wait(107));
 
 	// HEAD2bPlan
 	this.instance_5 = new lib.HEAD2b_Plan();
-	this.instance_5.setTransform(-149.3,194.4,0.9841,0.9841,0,0,0,88.4,25.1);
+	this.instance_5.setTransform(-149.3,325.8,0.9841,0.9841,0,0,0,88.4,25.1);
 	this.instance_5._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(59).to({_off:false},0).to({regX:88.5,x:136},9,cjs.Ease.quintOut).wait(118).to({regX:88.4,x:-149.3},11,cjs.Ease.quintIn).to({_off:true},1).wait(52));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(66).to({_off:false},0).to({regX:88.5,x:136},9,cjs.Ease.quintOut).wait(33).to({regX:88.4,x:-149.3},11,cjs.Ease.quintIn).to({_off:true},1).wait(163));
 
 	// HEAD2a
 	this.instance_6 = new lib.HEAD2a();
-	this.instance_6.setTransform(160.75,103.7,1.2996,1.2996,0,0,0,90,17.1);
+	this.instance_6.setTransform(160.75,222.2,1.2996,1.2996,0,0,0,90,17.1);
 	this.instance_6._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(48).to({_off:false},0).wait(138).to({alpha:0},11).to({_off:true},1).wait(52));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(48).to({_off:false},0).wait(171).to({alpha:0},11).to({_off:true},1).wait(52));
 
 	// HEAD1
 	this.instance_7 = new lib.HEAD1();
 	this.instance_7.setTransform(152.45,649.7,1.7314,1.7314,0,0,0,135.4,93);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(42).to({regX:135.6,x:637.45,y:1134.5},5,cjs.Ease.quadIn).to({_off:true},1).wait(202));
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(42).to({regX:135.6,x:637.45,y:1134.5},5,cjs.Ease.quadIn).to({_off:true},1).wait(235));
 
 	// bkgd
 	this.instance_8 = new lib.INTRO300x600bkgd15();
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(250));
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(283));
 
 	this._renderFirstFrame();
 
@@ -805,7 +805,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/DD_Intro_300x600_atlas_NP_1.jpg?1598218826281", id:"DD_Intro_300x600_atlas_NP_1"}
+		{src:"images/DD_Intro_300x600_atlas_NP_1.jpg?1598552215163", id:"DD_Intro_300x600_atlas_NP_1"}
 	],
 	preloads: []
 };
