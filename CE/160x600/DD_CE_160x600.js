@@ -303,14 +303,14 @@ if (reversed == null) { reversed = false; }
 
 	// stick
 	this.instance_1 = new lib.pinwheel_stick();
-	this.instance_1.setTransform(3.5,204.45,1,1,1.5337,0,0,-0.1,-204.3);
+	this.instance_1.setTransform(2.45,244.55,1,1.1967,1.5337,0,0,-0.1,-204.3);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(31));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-175.6,-175.6,351.2,584.4);
+p.nominalBounds = new cjs.Rectangle(-175.6,-175.6,351.2,664.7);
 
 
 (lib.HEAD1 = function(mode,startPosition,loop,reversed) {
@@ -630,10 +630,10 @@ if (reversed == null) { reversed = false; }
 
 	// pinwheel
 	this.instance = new lib.pinwheel_mc();
-	this.instance.setTransform(85,663.05,0.57,0.57,0,0,0,0.1,0.1);
+	this.instance.setTransform(85,603.45,0.57,0.57,0,0,0,0.1,0.1);
 	this.instance._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(57).to({_off:false},0).to({y:433.05},5,cjs.Ease.quadOut).wait(28).to({y:663.05},5,cjs.Ease.quadIn).to({_off:true},1).wait(58));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(57).to({_off:false},0).to({y:373.45},5,cjs.Ease.quadOut).wait(28).to({y:603.45},5,cjs.Ease.quadIn).to({_off:true},1).wait(58));
 
 	// CTA
 	this.instance_1 = new lib.CTA();
@@ -652,10 +652,10 @@ if (reversed == null) { reversed = false; }
 
 	// HEAD-EndFrame
 	this.instance_3 = new lib.HEADEndFrame();
-	this.instance_3.setTransform(303.55,519.4,0.7,0.7,0,0,0,197,132);
+	this.instance_3.setTransform(303.55,433.4,0.7,0.7,0,0,0,197,132);
 	this.instance_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(47).to({_off:false},0).to({x:143.55,y:369.4},10,cjs.Ease.quadOut).wait(39).to({x:303.55,y:529.4},5,cjs.Ease.quadIn).to({_off:true},1).wait(52));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(47).to({_off:false},0).to({x:143.55,y:283.4},10,cjs.Ease.quadOut).wait(39).to({x:303.55,y:443.4},5,cjs.Ease.quadIn).to({_off:true},1).wait(52));
 
 	// logo
 	this.instance_4 = new lib.DD_logo();
@@ -666,9 +666,9 @@ if (reversed == null) { reversed = false; }
 
 	// HEAD1
 	this.instance_5 = new lib.HEAD1();
-	this.instance_5.setTransform(82.5,311.45,1,1,0,0,0,135.5,93);
+	this.instance_5.setTransform(82.5,436,1,1,0,0,0,135.5,93);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(101).to({x:242.5,y:471.45},5,cjs.Ease.quadIn).to({_off:true},1).wait(47));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(47).to({x:242.5,y:596},5,cjs.Ease.quadIn).to({_off:true},1).wait(101));
 
 	// bkgd
 	this.instance_6 = new lib.CE300x600bkgd15();
@@ -678,7 +678,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(80,300,403.2,596);
+p.nominalBounds = new cjs.Rectangle(80,300,403.2,582.2);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
@@ -688,8 +688,8 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/DD_CE_160x600_atlas_P_1.png?1598132901048", id:"DD_CE_160x600_atlas_P_1"},
-		{src:"images/DD_CE_160x600_atlas_NP_1.jpg?1598132901048", id:"DD_CE_160x600_atlas_NP_1"}
+		{src:"images/DD_CE_160x600_atlas_P_1.png?1598645114139", id:"DD_CE_160x600_atlas_P_1"},
+		{src:"images/DD_CE_160x600_atlas_NP_1.jpg?1598645114139", id:"DD_CE_160x600_atlas_NP_1"}
 	],
 	preloads: []
 };

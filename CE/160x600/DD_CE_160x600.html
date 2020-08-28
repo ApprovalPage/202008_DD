@@ -16,8 +16,10 @@
 <meta name="ad.size" content="width=160,height=600">
 <script type="text/javascript">
 var clickTag = "https://www.deltadentalwa.com/self-service/patient/registration-validation"; </script>
-<script src="https://s0.2mdn.net/ads/studio/cached_libs/createjs_2019.11.15_min.js"></script>
-<script src="DD_CE_160x600.js"></script>
+<!-- DCM/Google/DoubleClick: Change external scripts URL to 2020 version: <script src="https://s0.2mdn.net/ads/studio/cached_libs/createjs_2019.11.15_min.js"></script> -->
+<!-- Remove garbage after .js -->
+<script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+<script src="DD_CE_160x600.js?1598645114171"></script>
 <script>
 var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
 function init() {
@@ -63,9 +65,10 @@ function handleComplete(evt,comp) {
 <!-- write your code here -->
 </head>
 <body onload="init();" style="margin:0px;">
-<a href="javascript:window.open(window.clickTag)">
 	<div id="animation_container" style="background-color:rgba(153, 153, 153, 1.00); width:160px; height:600px">
+	<a href="javascript:window.open(window.clickTag)">
 		<canvas id="canvas" width="160" height="600" style="position: absolute; display: block; background-color:rgba(153, 153, 153, 1.00);"></canvas>
+	</a>
 		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:160px; height:600px; position: absolute; left: 0px; top: 0px; display: block;">
 		</div>
 	</div>
