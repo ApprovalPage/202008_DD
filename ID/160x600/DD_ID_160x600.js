@@ -570,10 +570,10 @@ if (reversed == null) { reversed = false; }
 
 	// pinwheel
 	this.instance = new lib.IDSunBalloon_mc();
-	this.instance.setTransform(13.05,557.05,0.57,0.57,0,0,0,0.1,0.1);
+	this.instance.setTransform(13.05,451.05,0.57,0.57,0,0,0,0.1,0.1);
 	this.instance._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(47).to({_off:false},0).to({x:239.05,y:497.05},54,cjs.Ease.quadIn).to({_off:true},1).wait(52));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(47).to({_off:false},0).to({x:239.05,y:391.05},54,cjs.Ease.quadIn).to({_off:true},1).wait(52));
 
 	// CTA
 	this.instance_1 = new lib.CTA();
@@ -592,10 +592,10 @@ if (reversed == null) { reversed = false; }
 
 	// HEAD-EndFrame
 	this.instance_3 = new lib.HEADEndFrame();
-	this.instance_3.setTransform(303.55,519.4,0.7,0.7,0,0,0,197,132);
+	this.instance_3.setTransform(303.55,413.4,0.7,0.7,0,0,0,197,132);
 	this.instance_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(47).to({_off:false},0).to({x:143.55,y:369.4},10,cjs.Ease.quadOut).wait(39).to({x:303.55,y:529.4},5,cjs.Ease.quadIn).to({_off:true},1).wait(52));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(47).to({_off:false},0).to({x:143.55,y:263.4},10,cjs.Ease.quadOut).wait(39).to({x:303.55,y:423.4},5,cjs.Ease.quadIn).to({_off:true},1).wait(52));
 
 	// logo
 	this.instance_4 = new lib.DD_logo();
@@ -606,9 +606,9 @@ if (reversed == null) { reversed = false; }
 
 	// HEAD1
 	this.instance_5 = new lib.HEAD1();
-	this.instance_5.setTransform(82.5,311.45,1,1,0,0,0,135.5,93);
+	this.instance_5.setTransform(82.5,448,1,1,0,0,0,135.5,93);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(101).to({x:242.5,y:471.45},5,cjs.Ease.quadIn).to({_off:true},1).wait(47));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(47).to({x:242.5,y:608},5,cjs.Ease.quadIn).to({_off:true},1).wait(101));
 
 	// bkgd
 	this.instance_6 = new lib.ID300x600bkgd15();
@@ -618,7 +618,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(7.5,300,475.7,446.9);
+p.nominalBounds = new cjs.Rectangle(7.5,300,475.7,353.4);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
@@ -628,8 +628,8 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/DD_ID_160x600_atlas_P_1.png?1598477676101", id:"DD_ID_160x600_atlas_P_1"},
-		{src:"images/DD_ID_160x600_atlas_NP_1.jpg?1598477676101", id:"DD_ID_160x600_atlas_NP_1"}
+		{src:"images/DD_ID_160x600_atlas_P_1.png?1598645110308", id:"DD_ID_160x600_atlas_P_1"},
+		{src:"images/DD_ID_160x600_atlas_NP_1.jpg?1598645110308", id:"DD_ID_160x600_atlas_NP_1"}
 	],
 	preloads: []
 };
